@@ -1,0 +1,92 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# IntelliJ / PyCharm / WebStorm
+.idea/
+*.iml
+
+# Standard text editor swap files
+*~
+*.swp
+*.swo
+
+# ==========================================
+# Node.js / Frontend (JavaScript/TypeScript)
+# ==========================================
+# Dependencies (Never commit node_modules)
+node_modules/
+jspm_packages/
+
+# Build and production outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.docusaurus/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Caches
+.npm/
+.eslintcache
+.parcel-cache
+
+# ==========================================
+# Python
+# ==========================================
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv
+venv/
+ENV/
+env/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Diagnostics & Logs
+# ==========================================
+logs/
+*.log
